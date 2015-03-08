@@ -6,7 +6,7 @@ header {
   position: fixed;
   width: 100%;
   background-color: #2e2e2e;
-  height: 80px;
+  height: 120px;
   box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
   -webkit-box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
   z-index: 1000;
@@ -24,12 +24,13 @@ header {
   border-radius: 0 0 3px 3px;
 }
 #logo {
-  height: 80px;
+  height: 116px;
   background: url(../images/logo.png) no-repeat 0 50%;
-  width: 259px;
+  background-size: 500px 116px;
+  width: 500px;
   display: block;
   float: left;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 #nav {
   margin: 0;
@@ -40,21 +41,21 @@ header {
   display: inline-block;
 }
 #nav li a {
-  line-height: 77px;
+  line-height: 25px;
   display: block;
   font-size: 1.2em;
-  color: #fff;
+  color: #44459c;
   text-transform: uppercase;
   text-decoration: none;
   padding: 0 25px;
-  border-top: 3px solid #2e2e2e;
 }
+
 #nav li a:hover {
-  color: #f55e25;
+  color: #000;
 }
 #nav li a.selected {
-  border-top: 3px solid #f55e25;
-  color: #f55e25;
+  border-top: 3px solid #000;
+  color: #000;
 }
 #banner {
   background-color: #eee;
@@ -66,6 +67,13 @@ header {
 .slide-desc {
   padding: 20px 0 0 0px;
   color: #fff;
+}
+
+.menu {
+  background-image: -webkit-linear-gradient(top, rgb(219, 109, 0) 0%, rgb(193, 57, 0) 100%);
+  padding: 0px 0 0 0px;
+  color: #000;
+  background-color:#272727;
 }
 .slide-desc h2 {
   font-size: 2.85em;
@@ -84,8 +92,10 @@ header {
   border: 2px solid #fff;
 }
 .slide-desc .dist {
+  background-image: -webkit-linear-gradient(top, rgb(219, 109, 0) 0%, rgb(193, 57, 0) 100%);
   background-color: #f55e25;
   border: 2px solid #f55e25;
+
 }
 .slide-img {
   float: right;
