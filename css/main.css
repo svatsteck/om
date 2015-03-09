@@ -24,13 +24,11 @@ header {
   border-radius: 0 0 3px 3px;
 }
 #logo {
-  height: 116px;
+  height: 120px;
   background: url(../images/logo.png) no-repeat 0 50%;
-  background-size: 500px 116px;
-  width: 500px;
+  width: 400px;
   display: block;
   float: left;
-  margin-right: 20px;
 }
 #nav {
   margin: 0;
