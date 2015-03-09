@@ -3,13 +3,8 @@ body {
   background-color: #f9f9f9;
 }
 header {
-  position: fixed;
   width: 100%;
   background-color: #2e2e2e;
-  height: 120px;
-  box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
-  -webkit-box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
-  z-index: 1000;
 }
 .header-content {
   position: relative;
@@ -19,9 +14,7 @@ header {
   top: 0;
   right: 0;
   color: #fff;
-  background-color: #44459c;
-  padding: 10px 20px;
-  border-radius: 0 0 3px 3px;
+  padding: 10px 0;
 }
 #logo {
   height: 120px;
@@ -30,6 +23,27 @@ header {
   display: block;
   float: left;
 }
+#header-actions {
+  color: #fff;
+  float: right;
+  margin-top: 50px;
+}
+#header-actions .btn-lg {
+  padding: 10px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  outline: none;
+  font-size: 16px;
+}
+#header-actions .demo {
+  background: transparent;
+  border: 2px solid #fff;
+}
+#header-actions .dist {
+  background-color: #44459C;
+  border: 2px solid #44459C;
+}
 #nav {
   margin: 0;
   padding: 0;
@@ -37,9 +51,10 @@ header {
 }
 #nav li {
   display: inline-block;
+  height: 40px;
+  line-height: 40px;
 }
 #nav li a {
-  line-height: 25px;
   display: block;
   font-size: 1.2em;
   color: #44459c;
@@ -52,13 +67,11 @@ header {
   color: #000;
 }
 #nav li a.selected {
-  border-top: 3px solid #000;
   color: #000;
 }
 #banner {
   background-color: #eee;
-  height: 500px;
-  padding-top: 80px;
+  height: 450px;
   background: url(../images/bg.jpg) no-repeat 0 80%;
   background-size: cover;
 }
@@ -66,34 +79,15 @@ header {
   padding: 20px 0 0 0px;
   color: #fff;
 }
-
 .menu {
-  background-image: -webkit-linear-gradient(top, rgb(219, 109, 0) 0%, rgb(193, 57, 0) 100%);
-  padding: 0px 0 0 0px;
+  background-image: -webkit-linear-gradient(top, #E57D16 0%, #CF5421 100%);
   color: #000;
   background-color:#272727;
+  height: 40px;
 }
 .slide-desc h2 {
   font-size: 2.85em;
   line-height: 65px;
-}
-.slide-desc .btn-lg {
-  margin-top: 20px;
-  padding: 15px;
-  margin-right: 10px;
-  text-transform: uppercase;
-  color: #fff;
-  outline: none;
-}
-.slide-desc .demo {
-  background: transparent;
-  border: 2px solid #fff;
-}
-.slide-desc .dist {
-  background-image: -webkit-linear-gradient(top, rgb(219, 109, 0) 0%, rgb(193, 57, 0) 100%);
-  background-color: #f55e25;
-  border: 2px solid #f55e25;
-
 }
 .slide-img {
   float: right;
